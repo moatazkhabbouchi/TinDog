@@ -1,0 +1,178 @@
+body{
+    font-family: 'Montserrat';
+}
+
+h1, h2, h3, h3{
+    font-family: 'Montserrat';
+    font-weight: bolder;
+}
+
+p{
+    color: gray;
+}
+
+.section-title{
+    font-size: 3rem ;
+}
+
+/*-----------Navbar area--------*/
+
+
+.navbar-brand{
+
+    font-family: 'Montserrat', sans-serif; 
+    font-size: 2rem !important;
+
+}
+.navbar {
+    padding-bottom: 4.5rem !important;
+}
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-size: 1.2rem;
+}
+
+
+/*-----------Title area---------*/
+
+#title{
+    background-color: #6867AC;
+}
+
+.big-heading{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.container-fluid{
+    padding:3% 15% 12%!important;
+
+}
+
+.download-button{
+    margin: 5% 3% 5% 0%;
+}
+
+.title-image{
+    width: 20%;
+    transform: rotate(20deg);
+    position: absolute;
+    margin-left: 100px;
+}
+
+/*-----------Features area---------*/
+
+
+#features{
+    background-color: white;
+    position: relative;
+    z-index: 1;
+}
+.container-features{
+    padding: 10% 15% !important;
+
+}
+.feature-box{
+    text-align: center;
+}
+
+.icon{
+    color: rgb(255, 133, 133);
+    font-size: 6rem;
+    padding-bottom: 2rem;
+}
+.icon:hover{
+    color: #6867AC;
+}
+
+/*-----------Testimonials area---------*/
+
+#testimonials{
+    
+    text-align: center;
+    background-color: #6867AC;
+    color: white;
+}
+.testimonial-text{
+    font-size: 3rem ;
+}
+
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+.carousel-item{
+    padding: 5% 15%;
+
+}
+
+#press{
+    background-color: #6867AC;
+    text-align: center;
+    padding-bottom: 5% ;
+}
+.press-logo{
+    width: 200px;
+    margin: 10px 20px 15px;
+}
+
+/*-----------Pricing area---------*/
+
+#pricing{
+    padding: 5% 15%;
+    text-align: center;
+}
+
+
+.pricing-col{
+    padding: 3% 2%;
+}
+
+.price-header{
+    font-size: 3rem ;
+}
+
+/*-----------cta area---------*/
+
+#cta{
+    text-align: center;
+    background-color: #6867AC;
+    color: white;
+    padding: 5% 10% ;
+}
+
+
+/*-----------Footer area---------*/
+
+.footer-text{
+    font-size: 5rem;
+    font-weight: bolder;
+}
+
+#footer{
+    padding:7% 15%;
+    text-align: center;
+}
+.social-icon{
+    margin: 0 6px 10px;
+}
+
+
+
+
+
+
+
+
+@media  (max-width: 1000px){
+    #title{
+        text-align: center;
+    }
+    .title-image{
+        display: none;
+    }
+}
